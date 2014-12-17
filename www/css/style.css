@@ -1,0 +1,83 @@
+body
+{
+    background: #0ca3d2;
+}
+
+#inlogBox
+{
+    width: 625px;
+    height: 25px;
+    border: solid 1px #000;
+    background: #fff;
+    
+    text-align: center;
+    margin-left: auto ;
+    margin-right: auto ;
+    position: relative;
+    top: 50%;
+    transform: translateY(600%);
+
+
+}
+
+
+#dataBox
+{
+    width: 625px;
+    height: auto;
+    border: solid 1px #000;
+    background: #fff;
+    
+    text-align: center;
+    margin-left: auto ;
+    margin-right: auto ;
+    
+
+
+}
+
+
+#resultat
+{
+     width: 625px;
+    max-height: 395px;
+    overflow-y: scroll;
+    border: solid 1px #000;
+    background: #fff;
+    
+    text-align: center;
+    margin-left: auto ;
+    margin-right: auto ;
+    margin-top: 5px;
+
+    
+
+    
+}
+
+#dataContainer
+{
+    width: 630px;
+    height: auto;
+    text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+    margin-top: 150px;
+}
+
+#dataContainer h1{
+    color: #fff;
+}
+
+
+#testBox{
+    
+   width: 630px;
+    height: 170px;
+    text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+    margin-top: 50px;
+    background-color: #fff;
+    border: solid 1px #000;
+}
