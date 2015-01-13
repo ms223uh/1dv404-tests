@@ -1,6 +1,6 @@
 "use strict"
 
-var main = {
+var Main = {
     
 
     userName : "domare1",
@@ -13,7 +13,7 @@ var main = {
 
 
 Start : function(){
-    console.log("Load");
+    
    
    var Submit = document.getElementById("submit");
    
@@ -21,7 +21,7 @@ Start : function(){
         
         e.preventDefault();
         
-        main.Test();
+        Main.Test();
         
     }
     
@@ -34,8 +34,8 @@ Test : function(tested){
     var Name = document.getElementById("login");
      var Word = document.getElementById("password");
     
-    if(Name.value == main.userName){
-        if(Word.value == main.passWord){
+    if(Name.value == Main.userName){
+        if(Word.value == Main.passWord){
             
             alert("Du är nu inloggad & skickas vidare!");
         window.location = "point.html";
@@ -46,15 +46,24 @@ Test : function(tested){
     
 
        
-             if(Name.value != main.userName && Word.value != main.passWord){
+             if(Name.value != Main.userName && Word.value != Main.passWord){
                  
                  alert("Du har angett fel uppgifter eller så har du glömt att fylla i ett fält!")
                  
              }
         
+return "Test";
+    
+    
+    
 
     
+    
 },
+
+
+
+    
 
 
  
@@ -65,5 +74,5 @@ Test : function(tested){
 
 
 window.onload = function(){
-    main.Start();
+    Main.Start();
 }
