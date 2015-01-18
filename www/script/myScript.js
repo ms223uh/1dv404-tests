@@ -38,7 +38,7 @@ Test : function(tested){
         if(Word.value == Main.passWord){
             
             alert("Du är nu inloggad & skickas vidare!");
-        window.location = "point.html";
+        window.location = "logged.html";
             
         }
         

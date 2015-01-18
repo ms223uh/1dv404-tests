@@ -1,4 +1,4 @@
-"use strit"
+
 
 
  window.onload = function(){
@@ -45,6 +45,30 @@
         else{
             console.log("Test2 Fail!");
         }
+
+
+
+// Kollar om användaren har lagt till en deltagare till arrayen eller ej.
+
+var addChar = userMain.users;
+if(addChar.length === null){
+    console.log("Test3 OK! - Array = Empty.")
+}
+else
+{
+    console.log("Test3 Fail! - Array have item.")
+}
+
+
+// Kollar om värdet för poängen
+
+var Points = userMain.resTot;
+if(Points === 1 || Points < 6){
+    console.log("Test OK! - Points is in intervall between 1 and 5.");
+}
+else{
+    console.log("Test Fail! - Ponts is not in intervall between 1 and 5.")
+}
 
 
 
